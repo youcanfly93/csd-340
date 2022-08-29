@@ -1,0 +1,67 @@
+/*
+Joel Mardock
+8-28-2022
+Module 4.3 Assignment: Building a Web Page Exercise, Part 3
+
+*/
+
+
+h1
+{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-align: center;
+}
+
+h3
+{
+    font-weight: 500;
+}
+
+#topMovies
+{
+
+    width: 45%;
+    float: left;
+    font-weight: 300;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#topThings
+{
+    width: 45%;
+    float: right;
+    font-weight: 300;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    border: 1px dashed red;
+    padding: 10px;
+}
+
+#thirdDiv
+{   
+    width: 100%;
+    margin-top: 60%;
+}
+
+
+#favoriteLink, #topOfPage
+{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+    
+}
+
+#favoriteLink:hover, #topOfPage:hover
+{
+    text-decoration: underline;
+}
+
+#lastDiv
+{
+    float: right;
+    margin-bottom: 20px;
+}
+
+
