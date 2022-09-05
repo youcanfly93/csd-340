@@ -1,0 +1,49 @@
+/*
+    Joel Mardock
+    9-4-2022
+    Module 5.2 AssignmentL Build a Webpage Exercise, Part 4
+*/
+
+html
+{
+    background-color: rgba(247, 112, 24, .20)
+}
+#image-gallery
+{
+    margin-top: 10%;
+    display: grid;  
+    grid-template-columns: auto auto auto;
+
+}
+
+#grid-item
+{
+    border: solid rgba(185, 63, 8);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+img
+{
+    width: 400px;
+    height: 350px;
+}
+
+h1, h3, figcaption
+{
+    color: rgba(185, 63, 8);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+figure
+{
+    text-align: center;     
+}
+    
+figcaption
+{
+    font-style: italic;
+    font-size: .75em;
+}
