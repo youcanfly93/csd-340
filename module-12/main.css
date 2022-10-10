@@ -1,0 +1,133 @@
+/*
+    Joel Mardock
+    10/9/2022
+    Module 12 Assignment: HTML5 Landing Page
+*/
+
+h1
+{
+    text-align: center;
+}
+header
+{
+    background-color: #6497b1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
+#navbar
+{
+
+    overflow: hidden;
+    background-color: #005b96;
+    border-bottom: 15px solid #011f4b;
+}
+#navbar a
+{
+    
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar a:hover
+{
+    background-color: #011f4b;
+}
+.full-width
+{
+    width: 100%; 
+}
+
+.images
+{
+    
+    width:70%;
+    height:70%;
+}
+
+.container
+{
+  
+    padding: 10px;
+
+    font-family: 'Roboto', sans-serif;
+
+    
+
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+}
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    height: 100%;
+    
+    
+}
+.card-title
+{
+    text-align: center;
+    font-size: 2em;
+    color:#03396c;
+    font-weight: 400;
+
+}
+.card-content
+{
+    padding: 2px 16px;
+    text-align: center;
+    
+}
+.card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-form
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 20%;
+    padding: 50px
+    
+    
+}
+
+
+input 
+{
+    padding: 12px 20px;
+    margin: 1px;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+
+    
+}
+
+
+
+
+
+
+
